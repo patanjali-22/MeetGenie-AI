@@ -1,4 +1,4 @@
-# Meet AI
+# Meet Genie AI
 
 AI-powered video call application with real-time agents, meeting summaries, and post-call features.
 

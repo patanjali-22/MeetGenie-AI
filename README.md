@@ -58,5 +58,3 @@ npm run start        # Start production server
 > ```
 
 ---
-
-Created by [patanjali-22](https://github.com/patanjali-22)

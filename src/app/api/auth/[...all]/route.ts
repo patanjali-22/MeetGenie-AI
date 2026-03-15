@@ -1,4 +1,7 @@
-import { auth } from "@/lib/auth"; // path to your auth file
-import { toNextJsHandler } from "better-auth/next-js";
- 
-export const { POST, GET } = toNextJsHandler(auth);
+import { auth } from "@/lib/auth";
+import { headers } from "next/headers";
+import { nextCookies } from "next/headers";
+
+export const dynamic = "force-dynamic";
+
+export const handler = async (req: Request) => { toNextJsHandler(auth);

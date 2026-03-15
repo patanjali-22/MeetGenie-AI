@@ -11,9 +11,6 @@ import {
   CallSessionStartedEvent,
 } from "@stream-io/node-sdk";
 
-import { db } from "@/db";
-import { agents, meetings } from "@/db/schema";
-import { streamVideo } from "@/lib/stream-video";
 import { inngest } from "@/inngest/client";
 import { generateAvatarUri } from "@/lib/avatar";
 import { streamChat } from "@/lib/stream-chat";
